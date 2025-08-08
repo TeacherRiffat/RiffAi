@@ -1,82 +1,43 @@
-readme.md
+README.md
 # 🌸 RiffAI – Montessori AI Assistant
 
-**RiffAI** is an AI-powered teaching assistant designed especially for Montessori educators — built with love for *Miss Riffat* from The Thinker's School, Bahria Enclave, Islamabad 💖
+**RiffAI** is a free, AI-powered teaching assistant designed for Montessori educators and parents. It helps you plan lessons, print worksheets, write observations, and personalize learning — in seconds!
 
-Whether you're planning lessons, printing worksheets, writing observations, or sending home feedback — RiffAI makes it ✨ effortless.
+## ✨ Features
 
----
-
-## 🚀 Features
-
-- 🌱 **Montessori-Aligned**: Crafted prompts that match Montessori philosophy
-- 👶 **Age-Based Planning**: Enter age group and topic to get tailored material
-- 🧩 **Multiple Modes**:
-  - Lesson Plans
-  - Printable Worksheets
-  - Observation Notes
-  - Parent Feedback
-- 🎨 **Friendly UI**: Simple, clean and mobile-friendly interface
-- 🌐 **(Coming Soon)**: Bilingual Support (English + Urdu)
-- 💡 **Powered by AI**: Built on GPT-based smart prompting
+- 🗓️ **Lesson Plan Generator** – Instantly get activity plans by age & topic
+- 🧩 **Worksheet Maker** – Create printable materials (tracing, matching, visual tasks)
+- 📝 **Observation Notes** – Draft child-specific progress reports with Montessori lens
+- 👪 **Parent Feedback** – Auto-create home activity suggestions and weekly notes
 
 ---
 
-## 📸 Screenshots
+<details>
+<summary><strong>👣 How to Use RiffAI</strong></summary>
 
-| Home | Output |
-|------|--------|
-| ![Home](public/screens/home.png) | ![Output](public/screens/output.png) |
+1. Select the child's age (e.g. 3–6 years)  
+2. Choose a learning goal (e.g. math, language, sensorimotor)  
+3. Click “Get Plan” — and voila! Your activity plan is ready.  
+4. Print, save, or explore new suggestions.  
 
-*(Screenshots can be added here)*
-
----
-
-## 🛠️ How to Use
-
-1. Select a function (Lesson, Worksheet, Observation, Feedback)
-2. Choose an age group (e.g. 3–4, 5–6)
-3. Enter a topic (e.g. Shapes, Phonics, Cutting Skills)
-4. Hit `✨ Generate Prompt`
-5. Copy and use the result in your planning or reports
+</details>
 
 ---
 
-## 🧠 Tech Stack
+## 🛠️ Tech Stack
+- Built with **React + Tailwind CSS**
+- Designed for future integration with OpenAI for real-time results
+- Clean UI optimized for mobile & desktop use
 
-- React.js with Tailwind CSS
-- ShadCN/UI components
-- Vercel Deployment
-- GitHub Version Control
+## 🌐 License
+This project is open source and free for all educators and parents under the [MIT License](LICENSE).
 
 ---
 
-## 📦 Installation (For Developers)
+> Created with ❤️ to support Montessori magic around the world. Improvements welcome!
 
-```bash
-git clone https://github.com/TeacherRiffat/RiffAI.git
-cd RiffAI
-npm install
-npm run dev
-🧚 Future Features
-Urdu/English language toggle 🇵🇰
+## 📎 GitHub
+You can view, fork, or contribute to the project here: [RiffAI on GitHub](https://github.com/TeacherRiffat/RiffAi)
 
-AI-generated image worksheets 🎨
-
-Audio pronunciation tools 🔊
-
-Smart child progress tracking 📊
-
-Montessori Resource Bank 📚
-
-🙋 About the Creator
-Made with 💗 by Janan for his favorite teacher, Miss Riffat.
-Because every Montessori guide deserves a smart, gentle AI friend ✨
-
-📜 License
-This project is licensed under the MIT License.
-Feel free to modify and share with love — just credit where it’s due 🌷
-
-💌 Contributions
-Want to help improve RiffAI? Pull requests and ideas are welcome!
-Let’s make education magical ✨
+## 🚀 Live App
+Try the live version: [riff-ai.vercel.app](https://riff-ai.vercel.app)
