@@ -1,35 +1,14 @@
-
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-header, footer {
-    background-color: #ffe4ec;
-    text-align: center;
-    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: #f9f9f9;
 }
 
 h1 {
-    color: #d63384;
+    color: #4CAF50;
 }
 
-.features {
-    padding: 20px;
-}
-
-.features ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.features li {
-    background: #fff;
-    padding: 10px;
-    margin: 8px 0;
-    border-left: 6px solid #d63384;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+select, button {
+    margin: 10px;
+    padding: 5px;
 }
