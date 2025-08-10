@@ -1,19 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>RiffAI – Montessori Assistant</title>
-
-  <link rel="icon" href="favicon.ico" />
-
-  <!-- Load your stylesheet -->
-  <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RiffAI - Montessori Assistant</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="root"></div>
+    <h1>Welcome to RiffAI Montessori Assistant 🎓</h1>
+    <p>Select age and goal to get your plan:</p>
 
-  <!-- If script.js uses imports, use type="module". Otherwise drop the type. -->
-  <script src="./script.js" type="module"></script>
+    <label for="age">Age:</label>
+    <select id="age">
+        <option value="">--Select--</option>
+        <option value="3-4">3–4 years</option>
+        <option value="5-6">5–6 years</option>
+    </select>
+
+    <label for="goal">Goal:</label>
+    <select id="goal">
+        <option value="">--Select--</option>
+        <option value="math">Improve Math Skills</option>
+        <option value="language">Improve Language Skills</option>
+    </select>
+
+    <button onclick="generatePlan()">Get Plan</button>
+
+    <div id="output"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
